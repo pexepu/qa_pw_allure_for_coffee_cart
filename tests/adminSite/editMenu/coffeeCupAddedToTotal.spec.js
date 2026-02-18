@@ -6,9 +6,9 @@ test(`New coffee can be added to the  Menu`, async ({}) => {
   await allure.parentSuite(`Admin site`);
   await allure.suite('Add/remove coffee');
   await allure.subSuite('Add coffee');
-  await allure.severity(`critical `);
+  await allure.severity(`critical`);
 
   await allure.epic(`'Admin-panel' Admin panel`);
   await allure.feature('Change menu');
-  await allure.subSuite('Add coffee');
+  await allure.story("User story title");
 });

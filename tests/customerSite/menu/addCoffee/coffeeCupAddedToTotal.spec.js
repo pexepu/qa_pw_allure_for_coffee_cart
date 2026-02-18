@@ -16,7 +16,7 @@ testParameters.forEach(({ coffee, price }) => {
     await allure.parentSuite(`Customer site`);
     await allure.suite('Menu');
     await allure.subSuite('Update total cost');
-    await allure.severity(`normal `);
+    await allure.severity(`normal`);
 
     await allure.epic(`'CoffeeCart' Customer site`);
     await allure.feature('Total cost');

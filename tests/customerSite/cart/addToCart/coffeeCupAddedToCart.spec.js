@@ -22,7 +22,7 @@ testParameters.forEach(({ coffee, price }) => {
     await allure.suite('Cart');
     await allure.subSuite('Empty cart');
 
-    await allure.severity(`normal `);
+    await allure.severity(`normal`);
 
     await allure.epic(`'CoffeeCart' Customer site`);
     await allure.feature('Cart');
